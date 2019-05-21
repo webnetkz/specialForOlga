@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="ru.itlabor.maks" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="wheelgo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>WheelGo</name>
     <description>
         Твоя удача ждет тебя, выигрывай!
@@ -9,7 +9,7 @@
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-minSdkVersion" value="30" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="*"/>
     <plugin name="cordova-plugin-splashscreen" source="npm" />  
     <preference name="SplashScreenDelay" value="3000" />  

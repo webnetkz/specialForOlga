@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Колесо фортуны</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Краткое описание">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+
+    <!--include styles-->
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&amp;lang=ru-RU" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            jQuery("#user-city").text("-" + ymaps.geolocation.city + "-");
+        }
+    </script>
+</head>
+
+<body>
+    <div class="main-wrap">
+        <div class="content">
+            <div class="main-block">
+                <div class="main-block__left-top-block">Каждую пятницу
+                    <br><span class="light main-block__left-top-block-margin">cashback</span>
+                    <br>еженедельные
+                    <br>бонусные
+                    <br>акции</div>
+                <div class="main-block__right-top-block"><span class="light main-block__right-top-block-margin">Лицензионный<br>софт</span>
+                    <br>microgaming
+                    <br>yggdrasil
+                    <br>Netent</div>
+                <div class="main-block__right-bottom-block"><span class="light main-block__right-bottom-block-margin">Турниры с<br>призовым<br>фондом до</span>
+                    <br><span class="main-block__right-bottom-block-num">500 000</span>
+                    <br>рублей</div>
+                <div class="main-block__left-words"></div>
+                <div class="main-block__right-words"></div>
+                <div class="main-block__drum-block-wr">
+                    <img class="main-block__drum-block" src="images/drum-wr.png" alt="">
+                    <img class="main-block__drum" src="images/drum.png" alt="">
+                    <img class="main-block__pointer" src="images/pointer.png" alt="">
+                    <img class="main-block__drum-center" src="images/img-center.png" alt="">
+                    <div class="main-block__drum-center-but js-main-block__drum-center-but"></div>
+                </div>
+                <img class="deposit-logo" src="images/deposit.png" alt="">
+                <img class="freespins-logo" src="images/freespins.png" alt="">
+                <img class="main-block__get-prizes" src="images/get-prizes.png" alt="">
+                <img class="main-block__twist-wheel" src="images/twist-wheel.png" alt="">
+                <img class="main-block__twist-wheel-mobile" src="images/twist-wheel-mobile.png" alt="">
+                <div class="top-logo-mobile" src="images/top-logo-mobile.png" alt="">Акция для жителей города
+                    <div class="top-logo-mobile__city" id="user-city"></div>
+                </div>
+                <div class="main-block__number-attempts-wr">
+                    <div class="main-block__number-attempts-num main-block__number-attempts-num--2"></div>
+                    <div class="main-block__number-attempts-word-1">Количество</div>
+                    <div class="main-block__number-attempts-word-2">попыток</div>
+                </div>
+            </div>
+            <img class="partners" src="images/partners.png" alt="">
+            <div class="mobile-desc">
+                <div class="mobile-desc__text-1">Лицензионный софт</div>
+                <div class="mobile-desc__text-2">microgaming | yggdrasil
+                    <br>Netent</div>
+                <div class="mobile-desc__sep"></div>
+                <div class="mobile-desc__text-1">турниры с призовым
+                    <br>фондом до</div>
+                <div class="mobile-desc__sum">500 000</div>
+                <div class="mobile-desc__sum-cur">рублей</div>
+                <div class="mobile-desc__sep"></div>
+                <div class="mobile-desc__text-2">каждую пятницу</div>
+                <div class="mobile-desc__text-1">cashback</div>
+                <div class="mobile-desc__sep"></div>
+                <div class="mobile-desc__text-2">еженедельные бонусные
+                    <br>акции</div>
+                <img class="partners-mobile" src="images/partners-mobile.png" alt="">
+            </div>
+            <div class="overlay"></div>
+            <form class="form form--reg" id="reg" action="index.html" method="" novalidate>
+
+                <div class="form__title">Ваш выигрыш
+                    <br>ждет вас!</div>
+                <div class="form__text">Зарегистрируйтесь, сделайте первый депозит и получите
+                    <br>до
+                    <span class="form__text-bold">200% на депозит</span>
+                    и
+                    <br>до
+                    <span class="form__text-bold">200 бесплатных</span>
+                    <br><span class="form__text-bold">вращений</span>
+                </div>
+                <input type="hidden" name="refer" id="refer">
+                <input type="hidden" name="ctag" id="ctag">
+                <input type="hidden" name="btag" id="btag">
+                <div class="form__submit-wr">
+                    <button class="form__submit" type="submit"><a href="http://sol-media.casino/bcdd134a">Регистрация</a></button>
+                </div>
+            </form>
+            <form class="form form--congr-1" id="congr-1" action="index.html" method="" novalidate>
+                <div class="form-inner__desktop">
+                    <img class="form__bonus-1" src="images/deposit.png" alt="">
+                    <div class="form__text-3">Вы выиграли</div>
+                    <div class="form__text-4">до 200% на ваш</div>
+                    <div class="form__text-5">первый депозит</div>
+                    <div class="form__text-6"><span class="form__text-6-1">У вас есть</span>
+                        <br><span class="form__text-6-2">еще одна попытка</span>
+                    </div>
+                </div>
+                <div class="form-inner__mobile">
+                    <img class="form__close js-step1-go" src="images/close.png" alt="">
+
+                    <div class="form-inner__mobile-title">ПОЗДРАВЛЯЕМ!</div>
+                    <div class="form-inner__mobile-text-1">Вы выиграли</div>
+                    <div class="form-inner__mobile-bonus">200%</div>
+                    <div class="form-inner__mobile-text-2">на ваш первый</div>
+                    <div class="form-inner__mobile-text-3">депозит</div>
+                </div>
+                <div class="form__submit-wr">
+                    <button class="form__submit js-step1-go" type="button">Крутить ещё</button>
+                </div>
+            </form>
+            <form class="form form--congr-2" action="index.html" method="" novalidate>
+                <div class="form__title">Вы выиграли!</div>
+                <div class="form__text-2">200% на ваш первый
+                    <br>депозит и 200 бесплатных
+                    <br>вращений</div>
+                <div class="form__bonus-wr">
+                    <img class="form__bonus" src="images/deposit.png" alt="">
+                    <img class="form__bonus" src="images/freespins.png" alt="">
+                </div>
+                <div class="form__submit-wr"><a class="form__submit js-stepreg-go" href="http://sol-media.casino/bcdd134a" target="_blank">Регистрация</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+<!--include scripts-->
+<script src="script/jquery.js"></script>
+<script src="script/jquery.validate.min.js"></script>
+<script src="script/cookie.js"></script>
+<script src="script/jsencrypt.js"></script>
+<script src="script/registration.js"></script>
+<script src="script/script.js"></script>
